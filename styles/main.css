@@ -1,0 +1,24 @@
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.choice {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dashed dodgerblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+button {
+    color: antiquewhite;
+    background-color: red;
+    padding: 0.8rem;
+}
+
+.margin {
+    margin: 1rem 2rem 1rem 2rem;
+}

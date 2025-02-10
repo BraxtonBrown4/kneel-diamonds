@@ -1,4 +1,21 @@
 {
+  "types": [
+    {
+      "id": "1",
+      "type": "Ring",
+      "multiplier": 1
+    },
+    {
+      "id": "2",
+      "type": "Earring",
+      "multiplier": 2
+    },
+    {
+      "id": "3",
+      "type": "Necklace",
+      "multiplier": 4
+    }
+  ],
   "styles": [
     {
       "id": "1",
@@ -72,22 +89,25 @@
   ],
   "orders": [
     {
-      "id": 1,
-      "metalId": 5,
-      "sizeId": 2,
-      "styleId": 2
-    },
-    {
-      "id": 2,
-      "metalId": 2,
-      "sizeId": 4,
-      "styleId": 2
+      "metalId": 1,
+      "sizeId": 3,
+      "styleId": 2,
+      "typeId": 2,
+      "id": 4
     },
     {
       "metalId": 1,
-      "sizeId": 3,
+      "sizeId": 1,
       "styleId": 1,
-      "id": 3
+      "typeId": 1,
+      "id": 5
+    },
+    {
+      "metalId": 1,
+      "sizeId": 1,
+      "styleId": 1,
+      "typeId": 2,
+      "id": 6
     }
   ]
 }
